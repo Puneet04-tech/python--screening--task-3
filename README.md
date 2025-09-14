@@ -1,4 +1,43 @@
 # python--screening--task-3
+## Step-Up (Setup) Instructions
+
+### 1. Finding and Shortlisting Models
+- Explore open-source, code-focused models such as:
+  - BigCode/StarCoder family
+  - Meta’s CodeGen variants
+  - CodeBERT and CodeT5
+  - Lightweight models like GPT-NeoX
+- Criteria for selection:
+  - Trained on code or code+text
+  - Licensed for research and teaching
+  - Can run locally or on a modest cloud GPU
+
+### 2. Testing and Validating Models
+- Test models on:
+  - Short Python programs from students
+  - Buggy code rewritten differently
+  - Conceptual programming questions
+
+- For each task, check if the model can:
+  - Summarize code functionality
+  - Identify errors in student thinking
+  - Ask helpful, non-spoiling questions
+
+- Validation:
+  - Automatic checks (Bloom’s level, solution leak detection, explanation quality)
+  - Teacher reviews (clarity, insight, spoiler avoidance)
+  - Classroom trial (compare model hints vs. generic hints, measure quiz improvement)
+
+### 3. Balancing Accuracy, Clarity, and Cost
+- Bigger models = better understanding but higher cost
+- Smaller models = cheaper but less detailed
+- Large models = less interpretable, simpler models = more transparent
+- Explanation increases compute time; balance speed and interpretability
+
+### 4. Why StarCoder (BigCode) Is a Good Choice
+- Strong Python understanding, instruction-style prompts, teaching adaptation
+- Limitations (solution leak, hallucinations, compute needs) can be mitigated with prompt design, human review, and model selection
+### Reasoning
 Choosing and Testing Code-Understanding Models
 Main Takeaway: Use open-source code-focused models like StarCoder that are easy to run, licensed for research, and test them with real student code and teacher feedback to make sure they help students learn without giving away answers.
 
