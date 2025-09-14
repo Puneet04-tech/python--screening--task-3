@@ -1,6 +1,43 @@
 # python--screening--task-3
 ## Step-Up (Setup) Instructions
 
+Install Python
+
+Install Python 3.10+ from the official website or package manager.
+
+During installation, ensure “Add Python to PATH” is selected on Windows.
+
+Create a virtual environment
+
+macOS/Linux: python3 -m venv venv
+
+Windows: py -m venv venv
+
+Activate the environment
+
+macOS/Linux: source venv/bin/activate
+
+Windows (PowerShell): .\venv\Scripts\Activate
+
+Install helpful tools
+
+Linters/formatters: pip install ruff black
+
+Type checking: pip install mypy
+
+Debugging support (optional): pip install ipdb
+
+Verify versions
+
+python --version
+
+pip list
+
+Editor configuration
+
+Use VS Code or a similar editor with Python, Pylance, and Debugger extensions enabled.
+
+Turn on “Format on Save” and linting in editor settings.
 ### 1. Finding and Shortlisting Models
 - Explore open-source, code-focused models such as:
   - BigCode/StarCoder family
